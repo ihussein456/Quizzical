@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Karla:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.background{
+  background-color: #F5F7FB;
+  height: 100vh;
+  border: 1px solid #F5F7FB;
+}
+
+.hero{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1{
+  font-family: 'Karla', sans-serif;
+  padding-bottom: 10px;
+  color: #293264;
+  font-size: 3rem;
+}
+
+.hero p{
+  padding-bottom: 30px;
+}
+
+.hero button {
+  padding: 20px 90px;
+  cursor: pointer;
+  background-color: #4D5B9E;
+  color: #F5F7FB; 
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+}
+
+
+
+.question{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.question h2{
+  color: #293264;
+}
+
+/*.question button{
+  color: #293264;
+  background-color: #F5F7FB;
+  border: 1px solid #293264;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}*/
+
+.button{
+  color: #293264;
+  background-color: #F5F7FB;
+  border: 1px solid #293264;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.alignButton{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.buttonSubmit{
+  background-color: #293264;
+  color: #F5F7FB;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #293264;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.active{
+  background-color: #293264;
+}
+
+input[type='radio'][name='answer1'] { display:none; }
+label {
+  display:inline-block;
+  padding:3px;
+  border:1px solid #e0e0e0;
+  border-radius:3px;
+  background-color:#F0F0F0;
+  width:10em;
+  text-align:center;
+}
+
+input[type='radio'][name='answer1']:checked + label { background-color: black; }
+
+.blob1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+
+.blob2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+}
+
+.quizQuestions{
+  margin-top: 2%;
+}
+
+.question button{
+  margin-top: 1%;
+  margin-right: 2%;
+}
+.line{
+  margin-top: 2%;
+}
